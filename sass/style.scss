@@ -1,2 +1,15 @@
 @import "compass/reset";
 @import "compass/css3";
+
+.divcss5{ 
+  border:1px solid #000;
+  background: #1D1919;
+  height:100px;
+  overflow:hidden
+} 
+
+.divcss5 img{
+  max-width:45px;
+  margin-left: 170px;
+  margin-top: 10px;
+}
