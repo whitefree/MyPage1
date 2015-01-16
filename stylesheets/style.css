@@ -63,99 +63,126 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-.div0{ 
-  border:1px solid #000;
+/* line 4, ../sass/style.scss */
+.div0 {
+  border: 1px solid #000;
   background: #313030;
-  height:50px;
+  height: 50px;
   overflow: hidden;
-} 
-
-.div3{ 
-  border:1px solid #000;
-  background: #313030;
-  height:500px;
 }
 
+/* line 11, ../sass/style.scss */
+.div3 {
+  border: 1px solid #000;
+  background: #313030;
+  height: 500px;
+}
+
+/* line 17, ../sass/style.scss */
 #img0 {
-  max-width:30px;
+  max-width: 30px;
   margin-left: 170px;
   margin-top: 10px;
-} 
+}
 
+/* line 23, ../sass/style.scss */
 #img1 {
-  max-width:20px;
+  max-width: 20px;
   max-height: 20px;
   margin-left: 0px;
   margin-top: 0px;
 }
 
+/* line 30, ../sass/style.scss */
 #img2 {
-  width:1440px;
+  width: 1440px;
   height: 745px;
   margin-left: 0px;
   margin-top: 0px;
-  vertical-align:text-top;
+  vertical-align: text-top;
 }
 
+/* line 38, ../sass/style.scss */
 #img3 {
   position: absolute;
-  width:550px;
+  width: 550px;
   height: 400px;
   left: 430px;
   top: 420px;
-  vertical-align:text-top;
+  vertical-align: text-top;
 }
 
+/* line 47, ../sass/style.scss */
 #img4 {
   position: absolute;
-  width:100px;
+  width: 100px;
   height: 240px;
   left: 380px;
   top: 580px;
-  vertical-align:text-top;
+  vertical-align: text-top;
 }
 
+/* line 56, ../sass/style.scss */
 #img5 {
   position: absolute;
-  width:300px;
+  width: 300px;
   height: 180px;
   left: 780px;
   top: 640px;
-  vertical-align:text-top;
+  vertical-align: text-top;
 }
 
+/* line 65, ../sass/style.scss */
 #img6 {
-  width:30px;
+  width: 30px;
   height: 30px;
   left: 0px;
   top: 0px;
 }
 
+/* line 72, ../sass/style.scss */
 #img7 {
-  width:20px;
+  position: absolute;
+  width: 20px;
   height: 30px;
-  margin-left: 5px;
-  margin-top: 10px;
+  left: 1135px;
+  top: 10px;
 }
 
-.div0 p{
-  display: inline-block;
-  font-size: 20px;color: white;
-  width: 100px;
-} 
-
-.div0 hr{
+/* line 80, ../sass/style.scss */
+.div0 p {
+  position: absolute;
   display: inline;
-  margin-top: 15px;
+  font-size: 20px;
+  color: white;
+  width: 100px;
+  left: 210px;
+  top: 18px;
+}
+
+/* line 89, ../sass/style.scss */
+.div0 hr {
+  position: absolute;
+  display: inline;
+  top: 5px;
   border-color: #5A5858;
+  left: 310px;
+  height: 25px;
 }
 
-.div0 input{
-  margin-left: 20px;
+/* line 98, ../sass/style.scss */
+.div0 input {
+  position: absolute;
+  left: 330px;
   width: 200px;
+  top: 12px;
+  height: 25px;
+  background-color: #5A5858;
 }
 
+/* line 107, ../sass/style.scss */
 #button0 {
+  position: absolute;
   height: 30px;
   width: 80px;
   background: #de8231;
@@ -165,11 +192,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 3px 4px 3px 4px;
   text-decoration: none;
   font-family: Arial;
-  margin-left: 500px;
-  margin-top: 10px;
+  left: 1000px;
+  top: 10px;
 }
 
+/* line 122, ../sass/style.scss */
 #button1 {
+  position: absolute;
   height: 30px;
   width: 40px;
   background: #de8231;
@@ -178,10 +207,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 3px 4px 3px 4px;
   text-decoration: none;
   font-family: Arial;
-  margin-left: 6px;
-  margin-top: 10px;
+  left: 1085px;
+  top: 10px;
 }
 
+/* line 136, ../sass/style.scss */
 #button2 {
   position: absolute;
   height: 50px;
@@ -197,6 +227,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 20px;
 }
 
+/* line 151, ../sass/style.scss */
 #button3 {
   position: absolute;
   height: 50px;
@@ -208,12 +239,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: Arial;
   left: 730px;
   top: 330px;
-  font-size: 14px; 
-  background-color:rgba(250,250,250,0.5); 
-  filter:alpha(opacity=50); 
+  font-size: 14px;
+  background-color: rgba(250, 250, 250, 0.5);
+  filter: alpha(opacity=50);
   border: none;
 }
 
+/* line 168, ../sass/style.scss */
 #button4 {
   clear: left;
   display: block;
@@ -226,35 +258,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: Arial;
   margin-left: 580px;
   margin-top: 160px;
-  font-size: 24px; 
-  background-color: white; 
+  font-size: 24px;
+  background-color: white;
   border: none;
 }
 
-
-.div1{ 
-  border:1px solid #000;
+/* line 186, ../sass/style.scss */
+.div1 {
+  border: 1px solid #000;
   background: #7B7979;
-  height:25px;
-} 
+  height: 25px;
+}
 
-#firstLi{
+/* line 192, ../sass/style.scss */
+#firstLi {
   margin-left: 200px;
 }
 
+/* line 196, ../sass/style.scss */
 #secondLi {
   margin-left: 250px;
 }
 
+/* line 200, ../sass/style.scss */
 #thirdLi {
   margin-left: 230px;
 }
 
+/* line 204, ../sass/style.scss */
 #forthLi {
   margin-left: 220px;
 }
 
-.div1 li{
+/* line 208, ../sass/style.scss */
+.div1 li {
   float: left;
   margin-left: 60px;
   margin-top: 5px;
@@ -262,7 +299,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 12px;
 }
 
-.ul1 li{
+/* line 216, ../sass/style.scss */
+.ul1 li {
   float: left;
   margin-left: 150px;
   margin-top: 30px;
@@ -270,7 +308,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 24px;
 }
 
-.ul2 li{
+/* line 224, ../sass/style.scss */
+.ul2 li {
   float: left;
   margin-left: 150px;
   margin-top: 10px;
@@ -278,57 +317,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 20px;
 }
 
+/* line 232, ../sass/style.scss */
 .div2 {
   height: 745px;
 }
 
+/* line 236, ../sass/style.scss */
 .p1 {
-  position:absolute;    
-  color:white;
-  font-size:52px;
-  left:400px;
-  top:200px;
+  position: absolute;
+  color: white;
+  font-size: 52px;
+  left: 400px;
+  top: 200px;
   font-style: normal;
 }
 
+/* line 245, ../sass/style.scss */
 .p2 {
-  position:absolute;    
-  color:white;
-  font-size:22px;
-  left:420px;
-  top:270px;
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  left: 420px;
+  top: 270px;
 }
 
-.p3 {  
+/* line 253, ../sass/style.scss */
+.p3 {
   color: #F2EEEE;
-  font-size:24px;
+  font-size: 24px;
   margin-left: 420px;
   margin-top: 40px;
 }
 
-.p4 {  
+/* line 260, ../sass/style.scss */
+.p4 {
   color: #F2EEEE;
-  font-size:24px;
+  font-size: 24px;
   margin-left: 530px;
   margin-top: 10px;
 }
 
-.p5 {  
+/* line 267, ../sass/style.scss */
+.p5 {
   color: #F2EEEE;
-  font-size:14px;
+  font-size: 14px;
   margin-left: 610px;
   margin-top: 50px;
 }
 
-.div3 hr{
+/* line 274, ../sass/style.scss */
+.div3 hr {
   margin-top: 50px;
   margin-left: 650px;
   border-color: #5A5858;
 }
-
-
-
-
-
-
-  
